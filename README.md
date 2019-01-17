@@ -24,17 +24,28 @@
 
 https://developers.eos.io/eosio-home/docs/setting-up-your-environment
 
+```
 brew tap eosio/eosio
 brew install eosio
+```
 
 ## check cleos working
+
+```
 cleos -u https://jungle2.cryptolions.io get info
+```
 
 ## create wallet
+
+```
 cleos wallet create --to-console
 cleos wallet unlock
 cleos wallet import
+```
 
 ## test transfer of JUNGLE
+
+```
 cleos -u https://jungle2.cryptolions.io transfer acctfrom acctto "27 EOS" 
+```
 
