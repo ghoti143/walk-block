@@ -42,6 +42,10 @@ sudo apt install ./eosio_1.5.0-1-ubuntu-16.04_amd64.deb
 cleos -u https://jungle2.cryptolions.io get info
 ```
 
+* Compare the data from cleos and bloks: https://jungle.bloks.io/chain
+* Head block is the one just produced; 2 blocks per second.  
+* The last irreversible block lags behind because 15/21 block producers must have produced a derived block.
+
 ## create wallet
 
 ```
