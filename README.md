@@ -58,7 +58,7 @@ cleos wallet import
 ## Test transfer on Jungle
 
 ```
-cleos -u https://jungle2.cryptolions.io transfer acctfrom acctto "27 EOS" 
+cleos -u https://jungle2.cryptolions.io transfer mphfoofoo123 mphfoofoo321 "27 EOS" 
 ```
 
 ## Write HelloEOS
@@ -95,4 +95,8 @@ cat hello.wasm
 ```
 
 ## Deploy HelloEOS
+
+```
+cleos -u https://jungle2.cryptolions.io set contract hello /home/ghoti143/contracts/hello -p mphfoofoo123@active
+```
 
