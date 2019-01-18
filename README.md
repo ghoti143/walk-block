@@ -4,7 +4,7 @@
 
 # Demo
 
-## Create and Fund Test Account
+## 1. Create and Fund Test Account
 
 ### Generate keypair
 * https://nadejde.github.io/eos-token-sale/
@@ -19,7 +19,7 @@
 * https://jungle.bloks.io/
 * search for account name or public key
 
-## Install EOSIO
+## 2. Install EOSIO
 
 https://developers.eos.io/eosio-home/docs/setting-up-your-environment
 
@@ -35,7 +35,7 @@ wget https://github.com/eosio/eos/releases/download/v1.5.0/eosio_1.5.0-1-ubuntu-
 sudo apt install ./eosio_1.5.0-1-ubuntu-16.04_amd64.deb
 ```
 
-## Check if cleos is working
+## 3. Check if cleos is working
 
 ```
 cleos -u https://jungle2.cryptolions.io get info
@@ -45,7 +45,7 @@ cleos -u https://jungle2.cryptolions.io get info
 * Head block is the one just produced; 2 blocks per second.  
 * The last irreversible block lags behind because 15/21 block producers must have produced a derived block.
 
-## Create a local wallet
+## 4. Create a local wallet
 
 ```
 cleos wallet create --to-console
@@ -55,13 +55,13 @@ cleos wallet import
 
 * What is a wallet?  Does it store crypto assets?  No.  Just stores keypairs.
 
-## Test transfer on Jungle
+## 5. Test transfer on Jungle
 
 ```
 cleos -u https://jungle2.cryptolions.io transfer mphfoofoo123 mphfoofoo321 "27 EOS" 
 ```
 
-## Write HelloEOS
+## 6. Write HelloEOS
 
 ```
 cd ~
@@ -74,7 +74,7 @@ touch hello.cpp
 
 * Copy contents of [hello.cpp](hello.cpp) to local file.
 
-## Compile HelloEOS
+## 7. Compile HelloEOS
 
 ```
 eosio-cpp -o hello.wasm hello.cpp --abigen
@@ -94,7 +94,9 @@ cat hello.abi
 cat hello.wasm
 ```
 
-## Deploy HelloEOS
+* What is [Web Assessmbly](https://developer.mozilla.org/en-US/docs/WebAssembly)?
+
+## 8. Deploy HelloEOS
 
 ```
 cleos -u https://jungle2.cryptolions.io set contract mphfoofoo123 /home/ghoti143/contracts/hello -p mphfoofoo123@active
