@@ -24,19 +24,19 @@
 
 https://developers.eos.io/eosio-home/docs/setting-up-your-environment
 
-macos
+### MacOS
 ```
 brew tap eosio/eosio
 brew install eosio
 ```
 
-ubuntu 16.04
+### Ubuntu 16.04
 ```
 wget https://github.com/eosio/eos/releases/download/v1.5.0/eosio_1.5.0-1-ubuntu-16.04_amd64.deb
 sudo apt install ./eosio_1.5.0-1-ubuntu-16.04_amd64.deb
 ```
 
-## check cleos working
+## Check if cleos is working
 
 ```
 cleos -u https://jungle2.cryptolions.io get info
@@ -46,7 +46,7 @@ cleos -u https://jungle2.cryptolions.io get info
 * Head block is the one just produced; 2 blocks per second.  
 * The last irreversible block lags behind because 15/21 block producers must have produced a derived block.
 
-## create wallet
+## Create a local wallet
 
 ```
 cleos wallet create --to-console
@@ -54,7 +54,9 @@ cleos wallet unlock
 cleos wallet import
 ```
 
-## test transfer of JUNGLE
+* What is a wallet?  Does it store crypto $$?  No.  Just stores keypairs.
+
+## Test transfer on Jungle
 
 ```
 cleos -u https://jungle2.cryptolions.io transfer acctfrom acctto "27 EOS" 
