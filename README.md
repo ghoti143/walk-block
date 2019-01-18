@@ -2,6 +2,9 @@
 
 [presentation](https://docs.google.com/presentation/d/1wpFkVgbCGXkOxuqxXAkZB3ndHq4Z_ZjP17q0lh5FLfw/edit?usp=sharing)
 
+* Add slide about crypto concepts: merkle trees, public/private keys
+* Add slide about EOS concept: it's essentially a distributed VM.  Accounts, permissions, add and execute code
+
 # Demo
 
 ## 1. Create and Fund Test Account
@@ -95,6 +98,8 @@ cat hello.wasm
 ```
 
 * What is [Web Assessmbly](https://developer.mozilla.org/en-US/docs/WebAssembly)?
+* Designed to run wasm in JavaScript, but EOSIO is running the wasm from C++ VM.
+* Picked as a 
 
 ## 8. Deploy HelloEOS
 
@@ -107,3 +112,9 @@ Did you get an insufficient ram error?
 cleos -u https://jungle2.cryptolions.io system buyram mphfoofoo123 mphfoofoo123 "10 EOS"
 ```
 * EOS requires accounts to buy RAM to store their smart contracts
+
+## 9. Run HelloEOS
+
+```
+cleos -u https://jungle2.cryptolions.io push action mphfoofoo123 hi '["mphfoofoo123"]' -p mphfoofoo123@active
+```
