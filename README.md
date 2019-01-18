@@ -72,7 +72,7 @@ cd hello
 touch hello.cpp
 ```
 
-[hello.cpp](hello.cpp)
+* Copy contents of [hello.cpp](hello.cpp) to local file.
 
 ## Compile HelloEOS
 
