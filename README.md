@@ -72,6 +72,8 @@ cd hello
 touch hello.cpp
 ```
 
+[a relative link](hello.cpp)
+
 https://github.com/ghoti143/walk-block/blob/master/hello.cpp
 
 ## Compile HelloEOS
