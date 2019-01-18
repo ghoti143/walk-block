@@ -60,3 +60,47 @@ cleos wallet import
 cleos -u https://jungle2.cryptolions.io transfer acctfrom acctto "27 EOS" 
 ```
 
+## Write HelloEOS
+
+```
+cd ~
+mkdir contracts
+cd contracts
+mkdir hello
+cd hello
+touch hello.cpp
+```
+
+```
+#include <eosiolib/eosio.hpp>
+#include <eosiolib/print.hpp>
+
+using namespace eosio;
+
+class hello : public contract {
+  public:
+      using contract::contract;
+
+      [[eosio::action]]
+      void hi( name user ) {
+         print( "Hello, ", user);
+      }
+};
+
+EOSIO_DISPATCH( hello, (hi))
+```
+
+## Compile HelloEOS
+
+```
+eosio-cpp -o hello.wasm hello.cpp --abigen
+```
+
+### Error: `GLIBCXX_3.4.22' not found 
+```
+sudo apt-get update
+sudo apt-get install libstdc++6
+```
+
+## Deploy HelloEOS
+
