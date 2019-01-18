@@ -88,5 +88,10 @@ sudo apt-get install gcc-4.9
 sudo apt-get upgrade libstdc++6
 ```
 
+```
+cat hello.abi
+cat hello.wasm
+```
+
 ## Deploy HelloEOS
 
