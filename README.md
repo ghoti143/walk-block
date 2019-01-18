@@ -53,7 +53,7 @@ cleos wallet unlock
 cleos wallet import
 ```
 
-* What is a wallet?  Does it store crypto $$?  No.  Just stores keypairs.
+* What is a wallet?  Does it store crypto assets?  No.  Just stores keypairs.
 
 ## Test transfer on Jungle
 
@@ -97,6 +97,11 @@ cat hello.wasm
 ## Deploy HelloEOS
 
 ```
-cleos -u https://jungle2.cryptolions.io set contract hello /home/ghoti143/contracts/hello -p mphfoofoo123@active
+cleos -u https://jungle2.cryptolions.io set contract mphfoofoo123 /home/ghoti143/contracts/hello -p mphfoofoo123@active
 ```
 
+Did you get an insufficient ram error?
+```
+cleos -u https://jungle2.cryptolions.io system buyram mphfoofoo123 mphfoofoo123 "10 EOS"
+```
+* EOS requires accounts to buy RAM to store their smart contracts
