@@ -88,6 +88,7 @@ sudo apt-get install gcc-4.9
 sudo apt-get upgrade libstdc++6
 ```
 
+Check output
 ```
 cat hello.abi
 cat hello.wasm
