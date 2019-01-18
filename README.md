@@ -6,19 +6,18 @@
 
 ## Create and Fund Test Account
 
-1. Generate keypair
+### Generate keypair
 * https://nadejde.github.io/eos-token-sale/
 * copy and paste keypair somewhere for reference.
 
-2. Create account
+### Create account
 * https://monitor.jungletestnet.io/#account
 * use the same public key for owner and active.
 * account name must be 12 characters [a-z,1-5]
 
-3. Confirm creation
+### Confirm creation
 * https://jungle.bloks.io/
 * search for account name or public key
-
 
 ## Install EOSIO
 
@@ -98,7 +97,7 @@ EOSIO_DISPATCH( hello, (hi))
 eosio-cpp -o hello.wasm hello.cpp --abigen
 ```
 
-### Error: `GLIBCXX_3.4.22' not found (Ubuntu 16.04)
+Did you get an Error: `GLIBCXX_3.4.22' not found (Ubuntu 16.04)?
 ```
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 sudo apt-get update
