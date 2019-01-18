@@ -99,7 +99,7 @@ cat hello.wasm
 
 * What is [Web Assessmbly](https://developer.mozilla.org/en-US/docs/WebAssembly)?
 * Designed to run wasm in JavaScript, but EOSIO is running the wasm from C++ VM.
-* Picked as a 
+* wasm is a compile target for [dozens of languages](https://github.com/appcypher/awesome-wasm-langs)
 
 ## 8. Deploy HelloEOS
 
