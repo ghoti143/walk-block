@@ -118,3 +118,14 @@ cleos -u https://jungle2.cryptolions.io system buyram mphfoofoo123 mphfoofoo123 
 ```
 cleos -u https://jungle2.cryptolions.io push action mphfoofoo123 hi '["mphfoofoo123"]' -p mphfoofoo123@active
 ```
+* The user argument can be any text that conforms to EOS account name specifications.  It doesn't have to be a valid account.
+* Try passing a fake account - the contract will still say hello.
+
+## 10. Validate account
+
+```
+eosio_assert( is_account( user ), "user account does not exist");
+```
+* Add the above line to hello.cpp
+* Recompile and deploy
+* Now only valid accounts will be greeted.
