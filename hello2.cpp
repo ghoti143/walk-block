@@ -15,7 +15,7 @@ class hello : public contract {
         eosio_assert( is_account( user ), "user account does not exist");
         auto b = eosio::token::get_balance("eosio.token"_n, user, symbol_code("EOS"));
         b.print();
-        print( "Hello, ", user);
+        print(" || Hello, ", user);
       }
 };
 
