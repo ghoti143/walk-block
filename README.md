@@ -152,7 +152,7 @@ wget https://raw.githubusercontent.com/EOSIO/eosio.contracts/master/eosio.token/
 * Recompile and deploy
 
 ```
-if(b.amount > 500) {
+if(b.amount > 5000000) {
   print(" || You are rich! Go away, ", user);  
 } else {
   print(" || Hello, ", user);
