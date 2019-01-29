@@ -129,3 +129,18 @@ eosio_assert( is_account( user ), "user account does not exist");
 * Add the above line to hello.cpp
 * Recompile and deploy
 * Now only valid accounts will be greeted.
+
+## 11. Get user's balance
+
+```
+wget https://raw.githubusercontent.com/EOSIO/eosio.contracts/master/eosio.token/include/eosio.token/eosio.token.hpp
+wget https://raw.githubusercontent.com/EOSIO/eosio.contracts/master/eosio.token/src/eosio.token.cpp
+```
+
+* Edit vim eosio.token.cpp. Change line 6 to
+
+```
+#include "eosio.token.hpp"
+```
+
+* Copy contents of [hello2.cpp](hello2.cpp) to local file.
