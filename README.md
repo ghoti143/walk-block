@@ -34,8 +34,8 @@ brew install eosio
 
 ### Ubuntu 16.04
 ```
-wget https://github.com/eosio/eos/releases/download/v1.5.0/eosio_1.5.0-1-ubuntu-16.04_amd64.deb
-sudo apt install ./eosio_1.5.0-1-ubuntu-16.04_amd64.deb
+wget https://github.com/eosio/eos/releases/download/v1.6.0/eosio_1.6.0-1-ubuntu-16.04_amd64.deb
+sudo apt install ./eosio_1.6.0-1-ubuntu-16.04_amd64.deb
 ```
 
 ## 3. Check if cleos is working
