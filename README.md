@@ -137,7 +137,7 @@ wget https://raw.githubusercontent.com/EOSIO/eosio.contracts/master/eosio.token/
 wget https://raw.githubusercontent.com/EOSIO/eosio.contracts/master/eosio.token/src/eosio.token.cpp
 ```
 
-* Edit vim eosio.token.cpp. Change line 6 to
+* Edit eosio.token.cpp. Change line 6 to
 
 ```
 #include "eosio.token.hpp"
