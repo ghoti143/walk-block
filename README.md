@@ -144,3 +144,17 @@ wget https://raw.githubusercontent.com/EOSIO/eosio.contracts/master/eosio.token/
 ```
 
 * Copy contents of [hello2.cpp](hello2.cpp) to local file.
+* Recompile and deploy
+
+## 12. Spurn the rich man
+
+* Add below lines to contract method
+* Recompile and deploy
+
+```
+if(b.amount > 500) {
+  print(" || You are rich! Go away, ", user);  
+} else {
+  print(" || Hello, ", user);
+}
+```
