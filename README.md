@@ -1,9 +1,6 @@
 # A Walk around the Block
 
-[presentation](https://docs.google.com/presentation/d/1wpFkVgbCGXkOxuqxXAkZB3ndHq4Z_ZjP17q0lh5FLfw/edit?usp=sharing)
-
-* Add slide about crypto concepts: merkle trees, public/private keys
-* Add slide about EOS concept: it's essentially a distributed VM.  Accounts, permissions, add and execute code
+[presentation](https://drive.google.com/open?id=1k_QCMwT7rYzfPiT9lrfwSkuwM0e0FEmY3BTnfOVj1qQ)
 
 # Demo
 
