@@ -1,9 +1,12 @@
 # A Walk around the Block
 
+# Part 1: Overview of Blockchain Technology
+
 [presentation](https://drive.google.com/open?id=1JOEhbyDhaS5UFHxGSJkzFrRximbJFvqOTmSR5OudbLU)
+
 [NISTIR 8202 Blockchain Technology Overview](https://doi.org/10.6028/NIST.IR.8202)
 
-# Demo
+# Part 2: Demo
 
 ## 1. Create and Fund Test Account
 
