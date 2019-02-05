@@ -1,10 +1,14 @@
 # A Walk around the Block
 
+Mike Haggerty: Blockchain - A Walk Around the Block
+
+“A Walk Around the Block” – Miners and smart contracts and hard forks, OH MY! The explosion of cryptocurrency has brought with it a host of new technology and terminology. The first half of this presentation will focus on giving a rudimentary introduction to blockchain technology in general: how it works and why it matters. In the second half, a specific blockchain software system – EOS.IO – will be used to standup a new blockchain network and deploy a simple smart contract written in C++.
+
 # Part 1: Overview of Blockchain Technology
 
-[presentation](https://drive.google.com/open?id=1JOEhbyDhaS5UFHxGSJkzFrRximbJFvqOTmSR5OudbLU)
+* [presentation](https://drive.google.com/open?id=1JOEhbyDhaS5UFHxGSJkzFrRximbJFvqOTmSR5OudbLU)
 
-[NISTIR 8202 Blockchain Technology Overview](https://doi.org/10.6028/NIST.IR.8202)
+* [NISTIR 8202 Blockchain Technology Overview](https://doi.org/10.6028/NIST.IR.8202)
 
 # Part 2: Demo
 
