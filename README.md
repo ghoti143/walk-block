@@ -115,7 +115,7 @@ cat hello.wasm
 ## 8. Deploy HelloEOS
 
 ```
-cleos -u https://jungle2.cryptolions.io set contract mphfoofoo123 /home/ghoti143/contracts/hello -p mphfoofoo123@active
+cleos -u https://jungle2.cryptolions.io set contract mphfoofoo123 ~/dev/walk-block/contracts/hello -p mphfoofoo123@active
 ```
 
 Did you get an insufficient ram error?
