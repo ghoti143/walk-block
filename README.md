@@ -35,12 +35,18 @@ https://developers.eos.io/eosio-home/docs/setting-up-your-environment
 ```
 brew tap eosio/eosio
 brew install eosio
+
+brew tap eosio/eosio.cdt
+brew install eosio.cdt
 ```
 
 ### Ubuntu 16.04
 ```
 wget https://github.com/eosio/eos/releases/download/v1.6.0/eosio_1.6.0-1-ubuntu-16.04_amd64.deb
 sudo apt install ./eosio_1.6.0-1-ubuntu-16.04_amd64.deb
+
+wget https://github.com/EOSIO/eosio.cdt/releases/download/v1.4.1/eosio.cdt-1.4.1.x86_64.deb
+sudo apt install ./eosio.cdt-1.4.1.x86_64.deb
 ```
 
 ## 3. Check if cleos is working
